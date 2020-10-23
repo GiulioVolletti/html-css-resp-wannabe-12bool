@@ -1,4 +1,4 @@
-.debug .container [class*='col-']{
+/* .debug .container [class*='col-']{
   background-color: red;
   border: 1px solid violet;
   min-height: 200px;
@@ -6,7 +6,7 @@
 
 .debug .container {
   background-color: yellow;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -26,6 +26,7 @@
 
 /* col */
 [class*='col-'] {
+  width: 100%;
   float: left;
   height: 100%;
 }

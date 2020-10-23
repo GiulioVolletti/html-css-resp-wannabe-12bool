@@ -1,3 +1,69 @@
 body{
-  background-color: black;
+  text-align: center;
+}
+
+
+.grey .col-lg-12 img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+
+.container:nth-child(1n+2) {
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+img {
+  height: 200px;
+}
+
+[class*='col-'] {
+  padding: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  body {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .container:nth-child(1n+2) {
+    background-color: #FFFFFF;
+  }
+
+  .container:nth-child(2n+1) {
+    background-color: #F2F2CD;
+  }
+
+  img {
+    height: 140px;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  body {
+    text-align: center;
+    font-size: 16px;
+  }
+
 }
